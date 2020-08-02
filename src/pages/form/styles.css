@@ -1,0 +1,40 @@
+.product-form {
+  max-width: 700px;
+  margin: 20px auto 0;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.product-form .actions {
+  margin-top: 20px;
+}
+
+.product-form input {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  width: 100%;
+  padding: 14px 14px;
+}
+
+.product-form input[name=title] {
+  font-size: 32px;
+}
+
+.product-form input[name=description] {
+  color: #666;
+  line-height: 24px;
+  margin-top: 5px;
+}
+
+.product-form input[name=url] {
+  line-height: 24px;
+  margin-top: 5px;
+  color: #069
+}
+
+.product-form p {
+  font-size: 10px;
+  margin: 0;
+}
