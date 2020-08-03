@@ -9,16 +9,6 @@ function Form() {
   const [redirect, setRedirect] = useState(false);
   const { id } = useParams();
 
-  const loadProduct = async () => {
-    if(!id) return;
-    try {
-      const response = await api.get(`/products/${id}`);
-      setProduct(response.data);
-    } catch (error) {
-      alerts(error);
-    }
-  }
-
   const saveProduct = async (event) => {
     event.preventDefault();
     try {
@@ -41,9 +31,17 @@ function Form() {
   };
 
   useEffect(() => {
+    const loadProduct = async () => {
+      if(!id) return;
+      try {
+        const response = await api.get(`/products/${id}`);
+        setProduct(response.data);
+      } catch (error) {
+        alerts(error);
+      }
+    }
     loadProduct();
-    // eslint-disable-next-line
-  }, []);
+  }, [id]);
 
   return (
     <form>

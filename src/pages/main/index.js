@@ -36,7 +36,6 @@ function Main() {
 
   useEffect(() => {
     loadProducts();
-    // eslint-disable-next-line
   }, []);
 
   return (
