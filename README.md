@@ -18,4 +18,42 @@ Finally you can run `npm start` or `yarn start` to start the application
 
 ## Functionality
 
-- List all resources
+- **List all resources**
+
+![](index.gif)
+
+- **Create a new resource**
+
+![](create.gif)
+
+- **Show and Edit a resource**
+
+![](edit.gif)
+
+- **Show and Delete a resource**
+
+![](delete.gif)
+
+## Directory Structure
+
+- **node_modules/** (project dependencies)
+
+- **public/** (public files like index.html and favicon)
+
+- **src/** (main application files, available in development)
+
+  - **components/** (components React)
+
+  - **pages/** (application pages)
+  
+  - **services/** (handles external resources, like api interface)
+
+  - **utils/** (utility functions)
+
+  - **App.js** (import the application routes to be rendered)
+
+  - **index.js** (render React in the application)
+
+  - **routes.js** (routes of the application)
+  
+  - **styles.css** (main styles of the application)
