@@ -8,7 +8,7 @@ The purpose of this application is to practice the concepts of React.js as seen 
 
 ### API
 
-To run this project you need to set up its API [Back-End](https://github.com/GabrielPeresBernes/Huntweb-NodeJS)
+To run this project you need to set up its API (Get the [Back-End](https://github.com/GabrielPeresBernes/Huntweb-NodeJS))
 
 ### NPM / Yarn
 
