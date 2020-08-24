@@ -1,6 +1,6 @@
 # Huntweb ReactJS
 
-Front-End application inspired by Product Hunt made with React.js.
+Front-End Web application inspired by Product Hunt made with React.js.
 
 The purpose of this application is to practice the concepts of React.js as seen in the [Rocketseat](https://rocketseat.com.br/) free course.
 
